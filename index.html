@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<script>
+	function scrollToTop(){
+		document.getElementById("scroll").scrollTop=0;
+	}
+	</script>
+	<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<title>Eight Stages</title>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="title-container">
+				<div class="title-bar-contents">
+					<div class="title-header">
+						<div class="h1-container"><h1 class="title-name">EightStages</h1></div>
+						<div class="search-container">
+							<div class="search">
+								<input class="searchBar" id="search_bar" type="text" name="query" placeholder="Search by Term, Member, or Entry Title">
+								<img class="searchBar-cancel" src="images/cancel-icon.png" alt="search"/>
+							</div>
+						</div>
+						<input class="searchButton" type="submit" name="searchButton" value="SEARCH">
+					</div>
+					<div class="username-display">
+						<h2 class="username">Antoine Corriveau</h2>
+						<span class="user-option"><a href="#">Home</a> | <a href="#">Settings</a> | <a href="#">Logout</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="nav-container">
+				<div class="nav-bar-contents">
+					<div class="nav-options">
+						<ul class="list-nav-options">
+							<li><a href="#">Create New Entry</a></li>
+							<li><a href="#">My Topic Boxes</a></li>
+							<li><a href="#">Friends</a></li>
+							<li><a href="#">Invite New Member</a></li>
+						</ul>
+					</div>
+					<div class="nav-status">
+						<ul class="list-nav-status">
+							<li>
+								<div class="img-nav-status">
+									<img  class="img-nav" src="images/bin-icon.png" alt="invite"/>
+								</div>
+								<div class="text-nav-status"><a href="#" class="invite">Topic Boxes Invites-2</a></div>
+							</li>
+							<li>
+								<div class="img-nav-status">
+									<img class="img-nav" src="images/profile-icon.png" alt="profile"/>
+								</div>
+								<div class="text-nav-status"><a href="#" class="friend">Friend Requests-0</a></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="main-wrapper">
+				<div class="col3-l">
+					<div class="column-list">
+						<div class="column-list-title">
+							<div class="h3-col-titles-container">
+								<h3 class="h3-col-titles">Recent Searches</h3>
+							</div>
+							<div class="img-right-container">
+								<img class="img-right" src="images/help-icon.png" alt="help"/>
+							</div>
+						</div>
+						<div class="search-content"> 
+							<ul class="search-content-list">
+								<li>
+									<div class="h3-col-titles-container"><a href="#">Nick Cave and the Bad Seeds</a></div>
+									<div class="img-right-container">
+										<img class="img-arrow" alt="down"/>
+									</div>
+								</li>
+								<li>
+									<div class="h3-col-titles-container"><a href="#">African Animals</a></div>
+									<div class="img-right-container">
+										<img class="img-arrow" alt="down"/>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="column-list">
+						<div class="column-list-title">
+							<div class="h3-col-titles-container">
+								<h3 class="h3-col-titles">Saved Searches</h3>
+							</div>
+							<div class="img-right-container">
+								<img class="img-right-pencil" src="images/pencil.png" alt="pencil">
+							</div>
+						</div>
+						<div class="search-content">
+							<div class="custom-top-bottom-border">
+								<ul class="search-content-list">
+									<li>
+										<div class="h3-col-titles-container"><a href="#">Different versions of the Tristan Und Isolde Prelude</a></div>
+										<div class="img-right-container">
+											<img class="img-ham" alt="menu" />
+										</div>
+									</li>
+									<li>
+										<div class="h3-col-titles-container"><a href="#">Music</a></div>
+										<div class="img-right-container">
+											<img class="img-ham" alt="menu" />
+										</div>
+									</li>
+									<li>
+										<div class="h3-col-titles-container"><a href="#">Guitar</a></div>
+										<div class="img-right-container">
+											<img class="img-ham" alt="menu" />
+										</div>
+									</li>
+									<li>
+										<div class="h3-col-titles-container"><a href="#">Bob Cohen</a></div>
+										<div class="img-right-container">
+											<img class="img-ham" alt="menu" />
+										</div>
+									</li>
+									<li>
+										<div class="h3-col-titles-container"><a href="#">Mark Schnack</a></div>
+										<div class="img-right-container">
+											<img class="img-ham" alt="menu" />
+										</div>
+									</li>
+									<li>
+										<div class="h3-col-titles-container"><a href="#">Jefferson Dickey</a></div>
+										<div class="img-right-container">
+											<img class="img-ham" alt="menu" />
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main">
+					<div class="heading-container">
+						<h3 class="heading-main">New Entries</h3><span class="heading-main-caption"> - by All Members</span>
+						<img src="images/white-arrow-down.png" class="heading-main-img" alt="heading"/>
+					</div>
+					<div class="content-main">
+						<ul id="scroll">
+							<li>
+								<div class="img-news">
+									<img  src="images/1.png" class="image-news-left" alt="profile"/>
+								</div>
+								<div class="content-news">
+									<span class="news-title">Day for Night by Francois Truffaut, a ground breaking film</span><br>
+									by <a href="#">Alan Coe</a> | February 10,2012 | <a href="#">6 comments </a> | <span class="green-text">Subscribed</span><br>
+									From Topic Box: <a href="#">My Favourite Movies</a><br>
+								</div>
+							</li>
+							<li>
+								<div class="img-news">
+									<img src="images/2.png" class="image-news-left" alt="profile"/>
+								</div>
+								<div class="content-news">
+									<span class="blue-text">NEW ENTRY!</span><br>
+									<span class="news-title">Blade Runner, The Director's Cut</span><br>
+									by <a href="#">Mary Pilot</a> | February 8,2012 | <a href="#">2 comments </a><br>
+									From Topic Box: <a href="#">Behind the Scene</a><br>
+								</div>
+							</li>
+							<li>
+								<div class="img-news">
+									<img src="images/3.png" class="image-news-left" alt="profile"/>
+								</div>
+								<div class="content-news">
+									<span class="blue-text">NEW COMMENT!</span><br>
+									<span class="news-title">The Best French Restaurant in Chicago?</span><br>
+									by <a href="#">Jim Roy</a> | February 7,2012<br>
+									From Topic Box: <a href="#">Chicago Restaurant Reviews</a><br>
+								</div>
+							</li>
+							<li>
+								<div class="img-news">
+									<img src="images/4.png" class="image-news-left" alt="profile"/>
+								</div>
+								<div class="content-news">
+									<span class="news-title">The Meaning of Night. Dark Book but incredibly well written.</span><br>
+									by <a href="#">John-Peter Moise</a> | February 7,2012 | <span class="green-text">Subscribed</span><br>
+									From Topic Box: <a href="#">Book Read & Books to Read</a><br>
+								</div>
+							</li>
+							<li>
+								<div class="img-news">
+									<img src="images/5.png" class="image-news-left" alt="profile"/>
+								</div>
+								<div class="content-news">
+									<span class="maroon-text">TOPIC BOX INVITE!</span><br>
+									<span class="news-title">Pea Pesto</span><br>
+									by <a href="#">Marianne Gig</a> | February 6,2012 | <a href="#">1 comment </a> <br>
+									From Topic Box: <a href="#">Favourite Recipes</a><br>
+								</div>
+							</li>
+							<li>
+								<div class="img-news">
+									<img src="images/square.png" class="image-news-left" alt="profile"/>
+								</div>
+								<div class="content-news">
+									<span class="maroon-text">TOPIC BOX INVITE!</span><br>
+									<span class="news-title">Pea Pesto</span><br>
+									by <a href="#">Marianne Gig</a> | February 6,2012 | <a href="#">1 comment </a> <br>
+									From Topic Box: <a href="#">Favourite Recipes</a><br>
+								</div>
+							</li>
+							<li>
+								<div class="img-news">
+									<img src="images/square.png" class="image-news-left" alt="profile"/>
+								</div>
+								<div class="content-news">
+									<span class="maroon-text">TOPIC BOX INVITE!</span><br>
+									<span class="news-title">Pea Pesto</span><br>
+									by <a href="#">Marianne Gig</a> | February 6,2012 | <a href="#">1 comment </a> <br>
+									From Topic Box: <a href="#">Favourite Recipes</a><br>
+								</div>
+							</li>
+						</ul>
+						<button class="back-to-top" onclick="scrollToTop()">Back to Top &nbsp;&nbsp;^</button>
+					</div>
+				</div>
+			</div>
+			<div class="col3-r">
+				<div class="column-list">
+					<div class="column-list-title">
+						<div class="h3-col-titles-container">
+							<h3 class="h3-col-titles">Short & Sweet Video Tutorials</h3>
+						</div>
+						<div class="img-right-container">
+							<img class="img-right-tv" src="images/tv-icon.png" alt="tv"/>
+						</div>
+					</div>
+					<div class="search-content"> 
+						<ul class="search-content-list">
+							<li><a href="#">Overview of Eight Stages</a></li>
+							<li><a href="#">Searching the Site</a></li>
+							<li><a href="#">Previous & Saved Searches</a></li>
+							<li><a href="#">The Topic Box Page</a></li>
+							<li><a href="#">Creating a Topic Box</a></li>
+							<li><a href="#">View Topic Box Entries</a></li>
+							<li><a href="#">Creating an entry</a></li>
+							<li><a href="#">Privacy Settings</a></li>
+							<li><a href="#">Co-Authoring</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="column-list">
+					<div class="column-list-title">
+						<div class="h3-col-titles-container">
+							<h3 class="h3-col-titles">Different Ways to Use EightStages</h3>
+						</div>
+						<div class="img-right-container">
+							<img class="img-right-tv" src="images/tv-icon.png"  alt="tv"/>
+						</div>
+					</div>
+					<div class="search-content"> 
+						<ul class="search-content-list">
+							<li><a href="#">To Share Your Interests</a></li>
+							<li><a href="#">As A Journal For Your Life</a></li>
+							<li><a href="#">For Discussions</a></li>
+							<li><a href="#">For Interests Group</a></li>
+							<li><a href="#">Family Events</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-contents">
+				<ul class="footer-list">
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Feedback</a></li>
+				</ul>
+				<span class="copyright">&#169; EightStages 2013</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

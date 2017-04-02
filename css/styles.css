@@ -1,0 +1,1013 @@
+	a {
+			text-decoration: none;
+			color: black;
+	}
+		ul::-webkit-scrollbar {
+			width: 10px;
+		}
+
+		ul::-webkit-scrollbar-track {
+			background-color: #eeeeee;
+			border-radius: 10px;
+		}
+
+		ul::-webkit-scrollbar-thumb {
+			border-radius: 10px;
+			background-color: #aaaaaa;
+		}
+		.img-right {
+			float: right;
+			width: 17px;
+			height: 15px;
+		}
+		.img-ham{
+			float: right;
+			width: 17px;
+			height: 15px;
+			content: url('../images/menu-icon.png');
+		}
+		.img-arrow{
+			float: right;
+			width: 15px;
+			height: 15px;
+			content: url('../images/down-black.png');
+		}
+		.img-25{
+			width: 25px;
+			height: 25px;
+		}
+		.img-nav{
+			height: 18px;
+			width: 20px;
+		}
+		.img-right-tv{
+			float: right;
+			width: 30px;
+			height: 30px;
+		}
+		.img-right-pencil{
+			height:22px;
+			width:22px;
+			float: right;
+		}
+		.green-text{
+			color: green;
+		}
+		.maroon-text{
+			color: maroon;
+			font-size: 11px;
+			font-weight: bold;
+		}
+		.blue-text{
+			font-size: 11px;
+			color:#2fc1d9;
+			font-weight: bold;
+		}
+		.h3-col-titles {
+			color: white;
+			font-weight: normal;
+			font-family:'Muli';
+			font-size: 14px;
+		}
+
+		.h3-col-titles-container {
+			float: left;
+			width: 75%;
+		}
+		.img-right-container {
+			width: 25%;
+			float: right;
+		}
+		.img-right-container img{
+			align-items:  center;
+		}
+		.column-list-title {
+			display: flex;
+			align-items: center;
+			background-color: #2fc1d9;
+			padding: 10px;
+		}
+		.column-list-title:after {
+			display:table;
+			clear:both;
+			content: "";
+		}
+		.search-content {
+			background-color: #f5f5f5;
+			padding-bottom: 20px;
+		}
+		.search-content-list {
+			list-style-type: none;
+		}
+		.search-content-list li {
+			display:flex;
+			align-items: center;
+			padding: 8px 8px 8px 10px;
+			font-family: 'Istok Web';
+			font-size:11px;
+		}
+		.search-content-list li a{
+			color: #616161;
+		}
+		.search-content-list li:after {
+			display:table;
+			clear:both;
+			content: "";
+		}
+		.search-content-list li:hover {
+			background-color: white;
+		}
+		.search-content-list li:hover a {
+			color: #7dd8e8;
+		}
+		.search-content-list li:hover .img-arrow{
+			content: url('../images/down-blue.png');
+		}
+		.search-content-list li:hover .img-ham{
+			content: url('../images/menu-icon-blue.png');
+		}
+			.heading-container {
+			background-color:#004444;
+			padding: 10px 10px;
+		}
+		.heading-main {
+			font-weight: normal;
+			font-size: 18px;
+		}
+		.heading-main-caption {
+			font-weight: normal;
+			font-size: 14px;
+		}
+		.heading-main, .heading-main-caption {
+			display: inline;
+			font-family:'Muli';
+			color: white;
+		}
+		.heading-main-img{
+			float: right;
+			margin-top: 3px;
+			height: 20px;
+			width: 20px;
+		}
+		.content-main {
+			padding-bottom:15px;
+			padding-top: 20px;
+		}
+		.content-main ul {
+			list-style-tpe: none;
+			height: 512px;
+			overflow:hidden; 
+			overflow-y:scroll;
+		}
+		.content-main ul li {
+			border-bottom: 1px solid #aaaaaa;
+			display: inline-block;
+			width: 100%;
+			padding: 10px 0px;
+		}
+		.img-news {
+			float: left;
+			width: 14%;
+			margin-right: 8px;
+		}
+		.image-news-left{
+			height: 100%;
+			width: 100%;
+		}
+		.img-news img{
+			border-radius: 8px;
+		}
+		.news-title {
+			font-size: 14px;
+			font-family: 'Muli';
+		}
+		.news-title:hover {
+			text-decoration: underline;
+			cursor: pointer;
+		}
+		.content-news {
+			float: right;
+			width: 83%;
+			font-family:'Istok Web';
+			line-height: 19px;
+			font-size: 11px;
+		}
+		.content-news a {
+			color: #2fc1d9;
+		}
+		.content-news a:hover {
+			color: #7d77e8;
+		}
+		.back-to-top{
+			padding-top: 5px;
+			margin-top:5px;
+			border: none;
+			background: white;
+			float: right;
+			font-weight: bold;
+			font-family:'Istok Web';
+		}
+		.back-to-top:hover{
+			text-decoration:underline;
+			cursor: pointer;
+		}
+		.back-to-top:focus{
+			outline: none;
+		}
+
+	@media(min-width: 320px){
+		
+		.search-container{
+			display: block;
+			margin-top: 20px;
+		}
+		.search-container,.searchButton{
+			display: inline;
+		}
+		.title-container {
+			background-color:#7dd8e8;
+			display: inline-block;
+			width: 100%;
+			padding:12px 0px;
+			text-align: center;
+		}
+		.title-bar-contents{
+			margin:0 auto;
+			width: 100%;
+		}
+		.title-header {
+			display: block;
+		}
+		.title-header h1,.search {
+			display: block;
+		}
+		.title-name {
+			font-family:'Roboto Slab';
+			font-weight: 300;
+			font-size:50px;
+			color: #274f56;
+		}
+		.searchBar{
+			background-color: #cbeff6;
+			border-radius: 5px;
+			padding-left: 10px;
+			border:none;
+			height: 20px;
+			width: 240px;
+			font-family:'Istok Web';
+			font-size: 10px;
+		}
+		.searchBar:focus{
+			outline: none;
+		}
+		.search {
+			border-radius: 8px;
+			display: inline-block;
+			background-color: #cbeff6;
+		}
+		.searchBar-cancel{
+			height: 15px;
+			width: 15px;
+			border: none;
+			color: #aaaaaa;
+			background-color: #f5f5f5;
+			margin-right: 5px;
+			vertical-align: middle;
+		}
+		.searchBar-cancel:hover {
+			cursor: pointer;
+		}
+
+		.searchButton {
+			margin-top: 10px;
+			font-family:'Istok Web';
+			font-weight: 400;
+			background-color: black;
+			border-radius: 8px;
+			color: #f5f5f5;
+			border: none;
+			font-size: 10px;
+			height: 20px;
+			width: 52px;
+		}
+		.username-display {
+			display: block;
+			margin-top: 10px;
+		}
+		.username {
+			font-family:'Muli';
+			margin: 2px 0px;
+			font-weight: normal;
+			font-size: 15px;
+		}
+		.user-option{
+			font-family:'Istok Web';
+			font-size: 11px;
+		}
+		.user-option a:hover{
+			text-decoration: underline;
+		}
+		.nav-container {
+			font-family: 'Muli';
+			background-color:#f5f5f5;
+			width: 100%;
+			display: inline-block;
+			margin-top: -4px;
+		}
+		.nav-bar-contents{
+			margin:0 auto;
+			width: 100%;
+		}
+		.nav-options {
+			font-size: 13px;
+			float: left;
+		}
+		.nav-status {
+			float: right;
+			font-size: 11px;
+		}
+		.list-nav-options {
+			margin-left: 10px;
+			list-style-type: none;
+		}
+		.list-nav-options li a {
+			display: block;
+			padding: 14px 0px;
+		}
+		.list-nav-options li:hover {
+			text-decoration: underline;
+		}
+		.list-nav-status {
+			list-style-type: none;
+		}
+		.list-nav-status li {
+			display: flex;
+			align-items: center;
+			padding-right: 5px;
+		}
+		.list-nav-status li a {
+			display: block;
+			padding: 14px 0px 14px 7px;
+		}
+		.list-nav-status li a,.list-nav-status li img {
+			display: inline-block;
+		}
+		.invite {
+			font-weight: bold;
+		}
+		.friend {
+			color: #777777;
+		}
+		.img-nav-status {
+			float: left;
+		}
+		.text-nav-status {
+			float: right;
+		}
+		.img-nav-status, .text-nav-status {
+			display: inline-block;
+		}
+		.custom-top-bottom-border li{
+			border-top: 1px solid #f5f5f5;
+			border-bottom: 1px solid #f5f5f5;
+		}
+		.custom-top-bottom-border li:hover{
+			border-color: black;
+		}
+		.content-main{
+				display: inline-block;
+		width: 100%;
+	}
+		.footer {
+			background-color: #dddddd;
+			font-family: 'Istok Web';
+			font-weight: bold;
+			line-height: 50px;
+			font-size:12px;
+			width: 100%;
+		}
+		.footer-contents{
+			margin:0 auto;
+			width: 100%;
+			text-align: center;
+			padding: 10px 0px;
+		}
+		.footer-list {
+			list-style-type: none;
+			display: inline-block;
+			color: #979797;
+		}
+		.footer-list li{
+			float: left;
+			padding: 0px 5px;
+		}
+		.footer-list li a{
+			color: #979797;
+		}
+		.footer-list li a:hover {
+			color: black;
+		}
+		.copyright {
+			text-align: center;
+			display: block;
+			color: #979797;
+		}
+	}
+	@media(min-width: 768px){
+		
+		.h1-container,.search-container,.searchButton {
+			float: left;
+		}
+		.search-container{
+			display: inline-block;
+			margin-top: 30px;
+		}
+		.title-container {
+			background-color:#7dd8e8;
+			display: inline-block;
+			width: 96%;
+			padding:10px 2%;
+		}
+		.title-header {
+			margin-right: 38px;
+			float: left;
+		}
+		.title-header h1,.search {
+			display: inline-block;
+		}
+		.title-name {
+			font-family:'Roboto Slab';
+			font-weight: 300;
+			font-size:50px;
+			color: #274f56;
+		}
+		.searchBar{
+			background-color: #cbeff6;
+			border-radius: 5px;
+			padding-left: 10px;
+			border:none;
+			height: 20px;
+			width: 240px;
+			font-family:'Istok Web';
+			font-size: 10px;
+		}
+		.searchBar:focus{
+			outline: none;
+		}
+		.search {
+			border-radius: 8px;
+			margin-left: 20px;
+			display: inline-block;
+			background-color: #cbeff6;
+		}
+		.searchBar-cancel{
+			height: 15px;
+			width: 15px;
+			border: none;
+			color: #aaaaaa;
+			background-color: #f5f5f5;
+			margin-right: 5px;
+			vertical-align: middle;
+		}
+		.searchBar-cancel:hover {
+			cursor: pointer;
+		}
+
+		.searchButton {
+			font-family:'Istok Web';
+			font-weight: 400;
+			margin-left: 10px;
+			background-color: black;
+			border-radius: 8px;
+			color: #f5f5f5;
+			border: none;
+			margin-top: 30px;
+			font-size: 10px;
+			height: 20px;
+			width: 52px;
+		}
+		.username-display {
+			float: left;
+			text-align: center;
+			margin-top: 15px;
+		}
+		.username {
+			font-family:'Muli';
+			margin: 2px 0px;
+			font-weight: normal;
+			font-size: 15px;
+		}
+		.user-option{
+			font-family:'Istok Web';
+			font-size: 11px;
+		}
+		.user-option a:hover{
+			text-decoration: underline;
+		}
+		.nav-container {
+			font-family: 'Muli';
+			background-color:#f5f5f5;
+			width: 96%;
+			padding:0% 2%;
+			display: inline-block;
+			margin-top: -4px;
+		}
+		.nav-options {
+			font-size: 13px;
+			float: left;
+			display: block;
+			width: 100%;
+		}
+		.nav-status {
+			float: left;
+			font-size: 11px;
+			width: 100%;
+			display: block;
+		}
+		.list-nav-options {
+			margin-left: 10px;
+			list-style-type: none;
+		}
+		.list-nav-options li {
+			float: left;
+		}
+		.list-nav-options li a {
+			display: block;
+			padding: 14px 22px 14px 0px;
+		}
+		.list-nav-options li:hover {
+			text-decoration: underline;
+		}
+		.list-nav-status {
+			list-style-type: none;
+		}
+		.list-nav-status li {
+			display: flex;
+			align-items: center;
+			float: left;
+			padding-right: 15px;
+		}
+		.list-nav-status li a {
+			display: block;
+			padding: 14px 0px 14px 7px;
+		}
+		.list-nav-status li a,.list-nav-status li img {
+			display: inline-block;
+		}
+		.invite {
+			font-weight: bold;
+		}
+		.friend {
+			color: #777777;
+		}
+		.img-nav-status {
+			float: left;
+		}
+		.text-nav-status {
+			float: right;
+		}
+		.img-nav-status, .text-nav-status {
+			display: inline-block;
+		}
+		.custom-top-bottom-border {
+			height: 400px;
+		}
+		.custom-top-bottom-border li{
+			border-top: 1px solid #f5f5f5;
+			border-bottom: 1px solid #f5f5f5;
+		}
+		.custom-top-bottom-border li:hover{
+			border-color: black;
+		}
+		.footer {
+			background-color: #dddddd;
+			font-family: 'Istok Web';
+			font-weight: bold;
+			line-height: 50px;
+			font-size:12px;
+			width: 100%;
+			padding: 0% 2%;
+		}
+		.footer-list {
+			list-style-type: disc;
+			float: left;
+			color: #979797;
+		}
+		.footer-list li {
+			float: left;
+			margin-right: 30px;
+		}
+		.footer-list li a{
+			color: #979797;
+		}
+		.footer-list li:first-child{
+			list-style-type: none;
+		}
+		.footer-list li a:hover {
+			color: black;
+		}
+		.copyright {
+			float: right;
+			display: block;
+			color: #979797;
+		}
+	}
+	@media(min-width: 854px){
+		
+		.h1-container,.search-container,.searchButton {
+			float: left;
+		}
+		.search-container{
+			display: inline-block;
+			margin-top: 30px;
+		}
+		.title-container {
+			background-color:#7dd8e8;
+			display: inline-block;
+			width: 96%;
+			padding:10px 2%;
+		}
+		.title-header {
+			margin-right: 34px;
+			float: left;
+		}
+		.title-header h1,.search {
+			display: inline-block;
+		}
+		.title-name {
+			font-family:'Roboto Slab';
+			font-weight: 300;
+			font-size:50px;
+			color: #274f56;
+		}
+		.searchBar{
+			background-color: #cbeff6;
+			border-radius: 5px;
+			padding-left: 10px;
+			border:none;
+			height: 20px;
+			width: 240px;
+			font-family:'Istok Web';
+			font-size: 10px;
+		}
+		.searchBar:focus{
+			outline: none;
+		}
+		.search {
+			border-radius: 8px;
+			margin-left: 20px;
+			display: inline-block;
+			background-color: #cbeff6;
+		}
+		.searchBar-cancel{
+			height: 15px;
+			width: 15px;
+			border: none;
+			color: #aaaaaa;
+			background-color: #f5f5f5;
+			margin-right: 5px;
+			vertical-align: middle;
+		}
+		.searchBar-cancel:hover {
+			cursor: pointer;
+		}
+
+		.searchButton {
+			font-family:'Istok Web';
+			font-weight: 400;
+			margin-left: 10px;
+			background-color: black;
+			border-radius: 8px;
+			color: #f5f5f5;
+			border: none;
+			font-size: 10px;
+			height: 20px;
+			width: 52px;
+		}
+		.username-display {
+			float: right;
+			margin-top: 7px;
+		}
+		.username {
+			font-family:'Muli';
+			margin: 2px 0px;
+			font-weight: normal;
+			font-size: 15px;
+		}
+		.user-option{
+			font-family:'Istok Web';
+			font-size: 11px;
+		}
+		.user-option a:hover{
+			text-decoration: underline;
+		}
+		.nav-container {
+			font-family: 'Muli';
+			background-color:#f5f5f5;
+			width: 96%;
+			padding:0% 2%;
+			display: inline-block;
+			margin-top: -4px;
+		}
+		.nav-options {
+			font-size: 13px;
+			float: left;
+			width: auto;
+		}
+		.nav-status {
+			width: auto;
+			float: right;
+			font-size: 11px;
+		}
+		.list-nav-options {
+			margin-left: 10px;
+			list-style-type: none;
+		}
+		.list-nav-options li {
+			float: left;
+		}
+		.list-nav-options li a {
+			display: block;
+			padding: 14px 22px 14px 0px;
+		}
+		.list-nav-options li:hover {
+			text-decoration: underline;
+		}
+		.list-nav-status {
+			list-style-type: none;
+		}
+		.list-nav-status li {
+			display: flex;
+			align-items: center;
+			float: left;
+			margin-left: 40px;
+			padding-right: 5px;
+		}
+		.list-nav-status li a {
+			display: block;
+			padding: 14px 0px 14px 7px;
+		}
+		.list-nav-status li a,.list-nav-status li img {
+			display: inline-block;
+		}
+		.invite {
+			font-weight: bold;
+		}
+		.friend {
+			color: #777777;
+		}
+		.img-nav-status {
+			float: left;
+		}
+		.text-nav-status {
+			float: right;
+		}
+		.img-nav-status, .text-nav-status {
+			display: inline-block;
+		}
+		.custom-top-bottom-border {
+			height: 400px;
+		}
+		.custom-top-bottom-border li{
+			border-top: 1px solid #f5f5f5;
+			border-bottom: 1px solid #f5f5f5;
+		}
+		.custom-top-bottom-border li:hover{
+			border-color: black;
+		}
+		.footer {
+			background-color: #dddddd;
+			font-family: 'Istok Web';
+			font-weight: bold;
+			line-height: 50px;
+			font-size:12px;
+			width: 100%;
+			padding: 0% 2%;
+		}
+		.footer-list {
+			list-style-type: disc;
+			float: left;
+			color: #979797;
+		}
+		.footer-list li {
+			float: left;
+			margin-right: 30px;
+		}
+		.footer-list li a{
+			color: #979797;
+		}
+		.footer-list li:first-child{
+			list-style-type: none;
+		}
+		.footer-list li a:hover {
+			color: black;
+		}
+		.copyright {
+			float: right;
+			display: block;
+			color: #979797;
+		}
+	}
+	@media(min-width: 1200px){
+		
+	.h1-container {
+		float: left;
+	}
+	.search-container{
+		display: inline-block;
+		margin-top: 30px;
+	}
+	.title-container {
+		background-color:#7dd8e8;
+		display: inline-block;
+		width: 100%;
+		padding:12px 0px;
+	}
+	.title-bar-contents{
+		margin:0 auto;
+		width: 1002px;
+	}
+	.title-header {
+		float: left;
+	}
+	.title-header h1,.search {
+		display: inline-block;
+	}
+	.title-name {
+		font-family:'Roboto Slab';
+		font-weight: 300;
+		font-size:50px;
+		color: #274f56;
+	}
+	.searchBar{
+		background-color: #cbeff6;
+		border-radius: 5px;
+		padding-left: 10px;
+		border:none;
+		height: 20px;
+		width: 240px;
+		font-family:'Istok Web';
+		font-size: 10px;
+	}
+	.searchBar:focus{
+		outline: none;
+	}
+	.search {
+		border-radius: 8px;
+		margin-left: 20px;
+		display: inline-block;
+		background-color: #cbeff6;
+	}
+	.searchBar-cancel{
+		height: 15px;
+		width: 15px;
+		border: none;
+		color: #aaaaaa;
+		background-color: #f5f5f5;
+		margin-right: 5px;
+		vertical-align: middle;
+	}
+	.searchBar-cancel:hover {
+		cursor: pointer;
+	}
+
+	.searchButton {
+		font-family:'Istok Web';
+		font-weight: 400;
+		margin-left: 10px;
+		background-color: black;
+		border-radius: 8px;
+		color: #f5f5f5;
+		border: none;
+		font-size: 10px;
+		height: 20px;
+		width: 52px;
+	}
+	.username-display {
+		float: right;
+		margin-top: 7px;
+	}
+	.username {
+		font-family:'Muli';
+		margin: 2px 0px;
+		font-weight: normal;
+		font-size: 15px;
+	}
+	.user-option{
+		font-family:'Istok Web';
+		font-size: 11px;
+	}
+	.user-option a:hover{
+		text-decoration: underline;
+	}
+	.nav-container {
+		font-family: 'Muli';
+		background-color:#f5f5f5;
+		width: 100%;
+		padding: 0%;
+		display: inline-block;
+		margin-top: -4px;
+	}
+	.nav-bar-contents{
+		margin:0 auto;
+		width: 1002px;
+	}
+	.nav-options {
+		font-size: 13px;
+		float: left;
+	}
+	.nav-status {
+		float: right;
+		font-size: 11px;
+	}
+	.list-nav-options {
+		margin-left: 10px;
+		list-style-type: none;
+	}
+	.list-nav-options li {
+		float: left;
+	}
+	.list-nav-options li a {
+		display: block;
+		padding: 14px 22px 14px 0px;
+	}
+	.list-nav-options li:hover {
+		text-decoration: underline;
+	}
+	.list-nav-status {
+		list-style-type: none;
+	}
+	.list-nav-status li {
+		display: flex;
+		align-items: center;
+		float: left;
+		margin-left: 40px;
+		padding-right: 5px;
+	}
+	.list-nav-status li a {
+		display: block;
+		padding: 14px 0px 14px 7px;
+	}
+	.list-nav-status li a,.list-nav-status li img {
+		display: inline-block;
+	}
+	.invite {
+		font-weight: bold;
+	}
+	.friend {
+		color: #777777;
+	}
+	.img-nav-status {
+		float: left;
+	}
+	.text-nav-status {
+		float: right;
+	}
+	.img-nav-status, .text-nav-status {
+		display: inline-block;
+	}
+	.custom-top-bottom-border {
+		height: 400px;
+	}
+	.custom-top-bottom-border li{
+		border-top: 1px solid #f5f5f5;
+		border-bottom: 1px solid #f5f5f5;
+	}
+	.custom-top-bottom-border li:hover{
+		border-color: black;
+	}
+	.footer {
+		background-color: #dddddd;
+		font-family: 'Istok Web';
+		font-weight: bold;
+		line-height: 50px;
+		font-size:12px;
+	}
+	.footer-contents{
+		margin:0 auto;
+		width: 1002px;
+	}
+	.footer-list {
+		list-style-type: disc;
+		float: left;
+		color: #979797;
+	}
+	.footer-list li {
+		float: left;
+		margin-right: 30px;
+	}
+	.footer-list li a{
+			color: #979797;
+	}
+	.footer-list li:first-child{
+		list-style-type: none;
+	}
+	.footer-list li a:hover {
+		color: black;
+	}
+	.copyright {
+		float: right;
+		display: block;
+		color: #979797;
+	}
+	}
